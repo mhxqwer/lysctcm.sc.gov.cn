@@ -1,0 +1,470 @@
+.interactive {
+    width: 1200px;
+    height: 410px;
+    margin: 30px auto 0 auto;
+    background: url("../images/interactive.png")
+}
+
+.interactive .inter_content {
+    width: 1150px;
+    height: 260px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.interactive .inter_content li:nth-of-type(1) {
+    display: inline-block;
+    height: 100%;
+    width: 350px;
+    vertical-align: middle;
+}
+
+.interactive .inter_content li:nth-of-type(2) {
+    display: inline-block;
+    height: 100%;
+    width: 420px;
+    vertical-align: middle;
+}
+
+.interactive .inter_content li:nth-of-type(3) {
+    display: inline-block;
+    height: 100%;
+    width: 360px;
+    vertical-align: middle;
+}
+
+.contact {
+    width: 100%;
+    height: 100%;
+}
+
+.mailbox {
+    width: 360px;
+    height: 130px;
+    margin: auto;
+    background: url("../images/mailbox.png")
+}
+.mailbox a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.morefun {
+    width: 360px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+}
+
+.morefun .fun {
+    position: absolute;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.morefun .fun a{
+    position: absolute;
+    width: 170px;
+    height: 60px;
+}
+.morefun .fun:nth-of-type(1) {
+   
+    top: 0;
+    left: 15px;
+}
+.morefun .fun:nth-of-type(2) {
+   
+    top: 0;
+    right: 10px;
+}
+.morefun .fun:nth-of-type(3) {
+  
+    bottom: 35px;
+    left: 15px;
+}
+.morefun .fun:nth-of-type(4) {
+  
+    bottom: 35px;
+    right: 10px;
+}
+.morefun .fun:hover{
+    background: #fa8d00;
+}
+.morefun .fun:hover span{
+    color: #ffffff;
+}
+.fun img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.fun span {
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(170, 77, 1);
+    vertical-align: middle;
+}
+
+.lettersfrom {
+    width: 420px;
+    height: 260px;
+}
+
+.lettertitle {
+    width: 86%;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+}
+
+.lettertitle span:nth-of-type(1) {
+    float: left;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(174, 17, 16);
+    font-weight: bold;
+}
+
+.lettertitle a {
+    float: right;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb(106, 106, 106);
+}
+
+.letterlist {
+    width: 86%;
+    height: 35px;
+    line-height: 35px;
+    margin: auto;
+}
+
+.letterlist span {
+    display: inline-block;
+}
+
+.letterlist a {
+    display: inline-block;
+}
+
+.letterlist span:nth-of-type(1) {
+    margin-right:10px;
+    background-color: rgb(208 57 57);
+    background-position: 30px 30px;
+    width: 4px;
+    height: 4px;
+    vertical-align: middle;
+}
+
+.letterlist a {
+    width: 280px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb(21 20 20);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+
+.letterlist span:nth-of-type(2) {
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgba(0, 0, 0, 0.502);
+    vertical-align: middle;
+}
+
+
+.interview {
+    width: 370px;
+    height: 260px;
+}
+
+.interviewtitle {
+    width: 370px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+}
+
+.interviewtitle span:nth-of-type(1) {
+    float: left;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(174, 17, 16);
+    font-weight: bold;
+}
+
+.interviewtitle a {
+    float: right;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb(106, 106, 106);
+
+}
+
+.newsimg {
+    width: 370px;
+    height: 165px;
+    position: relative;
+    margin: 10px auto 0 auto;
+}
+.newsimg a{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.newsimg img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;   
+}
+
+.newsimg span {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.5;
+    left: 0;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.newstime {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+     font-size: 14px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+}
+
+.newstime span:nth-of-type(1) {
+    color: rgb(211, 0, 24);
+}
+
+/* æ”¿åŠ¡æœåŠ¡ */
+.services {
+    width: 1200px;
+    height: 410px;
+    margin: 30px auto;
+    background: url("../images/zwfwbg.png");
+}
+
+.services .services_content {
+    width: 1120px;
+    height: 240px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.services .services_content li:nth-of-type(1) {
+    display: inline-block;
+    height: 100%;
+    width: 24.0%;
+    vertical-align: middle;
+}
+
+.services .services_content li:nth-of-type(2) {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.services .services_content li:nth-of-type(3) {
+    display: inline-block;
+    height: 100%;
+    width: 24.0%;
+    vertical-align: middle;
+}
+
+.services_content li .infoselect {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #f3e7d9;
+    
+}
+.infoselect a{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(170, 77, 1);
+    display: inline-block;
+}
+.services_content li .infoselect:hover a {
+    background:rgb(148, 89, 68);
+    color: #ffffff;
+}
+.servicenetwork {
+    width: 520px;
+    height: 255px;
+    margin: auto;
+    background: url("../images/zwfwmiddlebg.png");
+}
+
+.networktitle {
+   /* height: 40px; */
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(170, 77, 1);
+    padding-top: 63px;
+}
+
+.networkfun {
+    width: 100%;
+    height: 150px;
+}
+
+.networkfun ul {
+    float: left;
+    width: 49.5%;
+    height: 100%;
+}
+
+.networkfun ul div {
+    width: 190px;
+    height: 36px;
+    line-height: 55px;
+    text-align: center;
+    margin: auto;
+    background: url("../images/zwfw_fun_bg.png");
+}
+
+.networkfun ul div:hover a{
+    color: white;
+    background: url("../images/zwfw_fun_bg_hover.png");
+}
+.networkfun ul div a {
+    display: block;
+    width: 190px;
+    height: 36px;
+    margin: 20px auto 0 auto;
+    line-height: 36px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb(170, 77, 1);
+}
+
+.dateopen {
+    width: 270px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    color: #a94d02;
+    background: url("../images/sjkf.png");
+    position: relative;
+}
+.dateopen a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+.dateopen:nth-of-type(2) {
+    width: 270px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    margin-top: 15px;
+    color: #a94d02;
+    background: url("../images/sgk.png");
+}
+
+
+.dateopen:nth-of-type(3) {
+    width: 270px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    margin-top: 15px;
+    color: #a94d02;
+    background: url("../images/yljgzydj.png");
+}
+
+.dateopen img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.dateopen span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+    color: rgb(181, 127, 45);
+    font-weight: bold;
+}
+
+.dateopen div {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+    color: rgb(181, 127, 45);
+    font-weight: bold;
+}
+
+.dateopen div p {
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.networkfundate {
+    margin: auto;
+    width: 500px;
+    height: 100px;
+ 
+}
+
+.networkfundate ul {
+    float: left;
+    width: 49.5%;
+    height: 100%;
+}
+
+.networkfundate  ul div {
+    width: 190px;
+    height: 36px;
+    line-height: 55px;
+    text-align: center;
+    margin: auto;
+    background: url("../images/zwfw_fun_bg.png");
+}
+
+.networkfundate ul div:hover a{
+    color: white;
+    background: url("../images/zwfw_fun_bg_hover.png");
+}
+.networkfundate ul div a {
+    display: block;
+    width: 190px;
+    height: 36px;
+    margin: 20px auto 0 auto;
+    line-height: 36px;
+    font-size: 26px;
+    font-family: "Microsoft YaHei";
+    color: rgb(170, 77, 1);
+}
